@@ -23,8 +23,63 @@ The task is episodic, and in order to solve the environment, your agents must ge
 
 The environment is considered solved, when the average (over 100 episodes) of those **scores** is at least +0.5.
 
-### Getting Started
+****
+## Getting Started
+### Dependencies 
 
+By following these instructions, you will install PyTorch, the ML-Agents toolkit, and a few more Python packages required to run this project.
+
+#### __Step 1__
+To set up your python environment to run the code in this repository, follow the instructions below. 
+
+
+
+1. Create (and activate) a new environment with Python 3.6. 
+
+    - __Linux__ or __Mac__:  
+
+    ```bash 
+
+    conda create --name drlnd python=3.6 
+
+    source activate drlnd 
+
+    ``` 
+
+
+
+2. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.   
+
+    - Install the **box2d** environment group by following the instructions [here](https://github.com/openai/gym#box2d). 
+    
+    ****
+
+3. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies. 
+
+    ```bash 
+
+    git clone https://github.com/chungpuonn/Multiple-Agents---Collaboration-And-Competition.git
+
+    cd Multiple-Agents---Collaboration-And-Competition/python 
+
+    pip install . 
+
+    pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org torch===0.4.0 torchvision===0.2.0 tensorflow==1.7.1 -f https://download.pytorch.org/whl/torch_stable.html
+
+    ``` 
+
+  
+
+4. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.   
+
+    ```bash 
+
+    python -m ipykernel install --user --name drlnd --display-name "drlnd" 
+
+    ``` 
+
+****
+#### __Step 2__
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
@@ -40,23 +95,3 @@ The environment is considered solved, when the average (over 100 episodes) of th
 ### Instructions
 
 Follow the instructions in `Tennis.ipynb` to get started with training your own agent!  
-
-### (Optional) Challenge: Soccer Environment
-
-After you have successfully completed the project, you might like to solve the more difficult **Soccer** environment.
-
-![Soccer][image2]
-
-In this environment, the goal is to train a team of agents to play soccer.  
-
-You can read more about this environment in the ML-Agents GitHub [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#soccer-twos).  To solve this harder task, you'll need to download a new Unity environment.  (**Note**: Udacity students should not submit a project with this new environment.)
-
-You need only select the environment that matches your operating system:
-- Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Soccer/Soccer_Linux.zip)
-- Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Soccer/Soccer.app.zip)
-- Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Soccer/Soccer_Windows_x86.zip)
-- Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Soccer/Soccer_Windows_x86_64.zip)
-
-Then, place the file in the `p3_collab-compet/` folder in the DRLND GitHub repository, and unzip (or decompress) the file.  Next, open `Soccer.ipynb` and follow the instructions to learn how to use the Python API to control the agent.
-
-(_For AWS_) If you'd like to train the agents on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Soccer/Soccer_Linux_NoVis.zip) to obtain the "headless" version of the environment.  You will **not** be able to watch the agents without enabling a virtual screen, but you will be able to train the agents.  (_To watch the agents, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
