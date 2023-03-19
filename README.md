@@ -95,3 +95,21 @@ To set up your python environment to run the code in this repository, follow the
 ### Instructions
 
 Follow the instructions in `Tennis.ipynb` to get started with training your own agent!  
+
+****
+
+### Un-trained agents in (random) action
+[//]: # (Image References)
+[image3]: image/untrained_agents.gif "Untrained Agent"
+![Untrained Agent][image3]
+
+****
+
+## Result
+- View [Project Report](report.pdf) to have a better understanding about the details of the algorithm and implementation. 
+
+### Trained agents in action
+[//]: # (Image References)
+[image4]: image/trained_agents.gif "Untrained Agent"
+![Untrained Agent][image4]
+
