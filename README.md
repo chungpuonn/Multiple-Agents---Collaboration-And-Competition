@@ -105,7 +105,7 @@ jupyter-notebook  p3_collab-compet/Tennis.ipynb
 ``` 
 
 
-Open the Jupyter Notebook of "Navigation (Solution).ipynb", and then follow the written instruction inside to train and deploy a smart agent!
+Open the Jupyter Notebook of "Tennis.ipynb", and then follow the written instruction inside to train and deploy the agents!
 
 __Note:__ Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu.  
   
