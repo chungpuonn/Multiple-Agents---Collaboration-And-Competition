@@ -92,16 +92,38 @@ To set up your python environment to run the code in this repository, follow the
 
 2. Place the file in the DRLND GitHub repository, in the `p3_collab-compet/` folder, and unzip (or decompress) the file. 
 
-### Instructions
 
-Follow the instructions in `Tennis.ipynb` to get started with training your own agent!  
+## Instructions
+
+### How-to run the code
+
+```bash 
+
+source activate drlnd 
+jupyter-notebook  p3_collab-compet/Tennis.ipynb
+
+``` 
+
+
+Open the Jupyter Notebook of "Navigation (Solution).ipynb", and then follow the written instruction inside to train and deploy a smart agent!
+
+__Note:__ Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu.  
+  
+
+[//]: # (Image References)
+[image3]: image/ipynb_kernel.png "Kernel"
+![Jupyter Notebook Kernel][image3]
 
 ****
 
+Follow the instructions in `Tennis.ipynb` to get started with training your own agent!    
+
+
+****
 ### Un-trained agents in (random) action
 [//]: # (Image References)
-[image3]: image/untrained_agents.gif "Untrained Agent"
-![Untrained Agent][image3]
+[image4]: image/untrained_agents.gif "Untrained Agent"
+![Untrained Agent][image4]
 
 ****
 
@@ -110,6 +132,6 @@ Follow the instructions in `Tennis.ipynb` to get started with training your own 
 
 ### Trained agents in action
 [//]: # (Image References)
-[image4]: image/trained_agents.gif "Untrained Agent"
-![Untrained Agent][image4]
+[image5]: image/trained_agents.gif "Trained Agent"
+![Trained Agent][image5]
 
